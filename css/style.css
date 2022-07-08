@@ -1,0 +1,118 @@
+:root {
+    --font-size: 1;
+  }
+html, body {
+    background-color: #fff;
+    width: 100%;
+    
+}
+
+footer{
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+
+/*General styles*/
+#logo{
+    display: block;
+    float: left;    
+}
+#contacto{
+    color: #fff;
+    float: right; 
+}
+#copyR{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 80px;
+}
+#band-destination{
+    background-image: url(../recursos/band.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    height: 170px;
+}
+
+figure img{
+    max-height: 300px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px) {
+    #band-destination{
+        background-size: auto;
+        height: 130px;
+    }
+    figure img{
+        margin-left: 10%
+    }
+    figcaption{
+        margin-left: 10%
+    }
+  }
+
+/*inicio*/
+
+section h2{
+    text-align: center;
+}
+section a{
+    color: #fff;
+}
+
+.card{
+	margin:10px;
+}
+
+.divcards{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    max-height: 160px;
+}
+
+
+.regreso a{
+    margin: 5%;
+    font-size: 20px !important;
+    color: #000 !important;
+}
+
+#descrip{
+    margin-top: 30px;
+}
+
+
+
+section img{
+    border-radius: 15px;
+}
+
+
+
+.font-controls {
+    position: absolute;
+    top: .10em;
+    right: -1.5em;
+    display: flex;
+    font-size: 1.4em;
+}
+  
+.font-control {
+    margin-left: .5em;
+    padding: .25em;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {   
+    .font-controls {
+        right: -2.7em;
+        top: -1.9em;
+    }
+
+  }
